@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/tantrum/precache-manifest.40b075ca314306748925d0dffe6156df.js"
+  "/tantrum/precache-manifest.5f10d94526eef35f7cfec7847d4eb3b2.js"
 );
 
 self.addEventListener('message', (event) => {
