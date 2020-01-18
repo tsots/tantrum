@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ad3b6bf97c88884d27e77045e407c1a4",
+    "revision": "5849d8816cf27d7bfa4b63d81d5fab1c",
     "url": "/tantrum/index.html"
   },
   {
-    "revision": "2c300b2eaee5bf6b6dd9",
+    "revision": "9cd7f88a6a2e3d47f290",
     "url": "/tantrum/static/css/main.5b7333d5.chunk.css"
   },
   {
-    "revision": "700de6c2de277443a107",
-    "url": "/tantrum/static/js/2.b3a0fca9.chunk.js"
+    "revision": "e0d97b6e91d2ab60fd4a",
+    "url": "/tantrum/static/js/2.d286dd92.chunk.js"
   },
   {
     "revision": "e928fe768baa9832b5bc57eae021f30c",
-    "url": "/tantrum/static/js/2.b3a0fca9.chunk.js.LICENSE"
+    "url": "/tantrum/static/js/2.d286dd92.chunk.js.LICENSE"
   },
   {
-    "revision": "2c300b2eaee5bf6b6dd9",
-    "url": "/tantrum/static/js/main.acbeb0b7.chunk.js"
+    "revision": "9cd7f88a6a2e3d47f290",
+    "url": "/tantrum/static/js/main.09e20c73.chunk.js"
   },
   {
     "revision": "a525b12c619b015ad4f6",
