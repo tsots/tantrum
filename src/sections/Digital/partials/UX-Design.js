@@ -6,9 +6,12 @@ import UXDesignSmall from '../img/UX-design-small.svg';
 class UXDesign extends Component {
   render() {
     return (
-      <div className='UX-Design'>
+      <section className='UX-Design'>
         <h3>UX-DESIGN</h3>
-        <img src={UXDesignLarge} alt='' />
+        <img
+          src={UXDesignSmall}
+          srcSet={`${UXDesignSmall} 500w, ${UXDesignLarge} 768w`}
+        />
         <p>
           “UX” stands for “user experience.” A user’s experience of the app is
           determined by how they interact with it. Is the experience smooth and
@@ -19,7 +22,7 @@ class UXDesign extends Component {
           determined by how easy or difficult it is to interact with the user
           interface elements that the UI designers have created.
         </p>
-      </div>
+      </section>
     );
   }
 }

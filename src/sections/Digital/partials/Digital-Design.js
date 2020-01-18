@@ -6,9 +6,12 @@ import DDesignSmall from '../img/digital-design-small.svg';
 class DDesign extends Component {
   render() {
     return (
-      <div className='Digital-Design'>
+      <section className='Digital-Design'>
         <h3>DIGITAL DESIGN</h3>
-        <img src={DDesignLarge} alt='' />
+        <img
+          src={DDesignSmall}
+          srcSet={`${DDesignSmall} 500w, ${DDesignLarge} 768w`}
+        />
         <p>
           We create your online identity to perfectly reflect your company and
           the message you want to get through to your visitors. We give you the
@@ -19,7 +22,7 @@ class DDesign extends Component {
           also your social media assets, written content and audio-visual
           content.
         </p>
-      </div>
+      </section>
     );
   }
 }

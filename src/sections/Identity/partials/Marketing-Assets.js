@@ -6,7 +6,7 @@ import MAssetsSmall from '../img/marketing-assets-small.svg';
 class MAssets extends Component {
   render() {
     return (
-      <div className='Marketing-Assets'>
+      <section className='Marketing-Assets'>
         <h3>MARKETING ASSETS</h3>
         <img src={MAssetsLarge} alt='' />
         <p>
@@ -22,7 +22,7 @@ class MAssets extends Component {
             ..........
           </ul>
         </p>
-      </div>
+      </section>
     );
   }
 }

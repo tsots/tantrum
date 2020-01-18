@@ -6,9 +6,12 @@ import ResearchSmall from '../img/research-small.svg';
 class Research extends Component {
   render() {
     return (
-      <div className='Research'>
+      <section className='Research'>
         <h3>RESEARCH</h3>
-        <img src={ResearchLarge} alt='' />
+        <img
+          src={ResearchSmall}
+          srcSet={`${ResearchSmall} 500w, ${ResearchLarge} 768w`}
+        />
         <p>
           We are devoted strategists and believe that thoughtful information
           architecture lays the groundwork for an intuitive, efficient, and
@@ -16,7 +19,7 @@ class Research extends Component {
           anticipated content, which we use to map out the most logical and
           organized structure for your site.
         </p>
-      </div>
+      </section>
     );
   }
 }

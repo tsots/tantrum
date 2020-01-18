@@ -6,9 +6,12 @@ import UIDesignSmall from '../img/UI-design-small.svg';
 class UIDesign extends Component {
   render() {
     return (
-      <div className='UI-Design'>
+      <section className='UI-Design'>
         <h3>UI-DESIGN</h3>
-        <img src={UIDesignLarge} alt='' />
+        <img
+          src={UIDesignSmall}
+          srcSet={`${UIDesignSmall} 500w, ${UIDesignLarge} 768w`}
+        />
         <p>
           The “UI” in UI design stands for “user interface.” The user interface
           is the graphical layout of an application. It consists of the buttons
@@ -18,7 +21,7 @@ class UIDesign extends Component {
           single micro-interaction. Any sort of visual element, interaction, or
           animation must all be designed.
         </p>
-      </div>
+      </section>
     );
   }
 }

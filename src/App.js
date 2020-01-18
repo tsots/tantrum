@@ -14,14 +14,24 @@ function App() {
   return (
     <div className='main'>
       <div className='App'>
-        <Router basename={'/'}>
+        <Router>
           <Header />
           <Switch>
-            <Route exact path='/' component={Home} />
-            <Route path='/About' component={About} />
-            <Route path='/Identity' component={Identity} />
-            <Route path='/Digital' component={Digital} />
-            <Route path='/Contact' component={Contact} />
+            <Route exact path='/'>
+              <Home />
+            </Route>
+            <Route path='/About'>
+              <About />
+            </Route>
+            <Route path='/Identity'>
+              <Identity />
+            </Route>
+            <Route path='/Digital'>
+              <Digital />
+            </Route>
+            <Route path='/Contact'>
+              <Contact />
+            </Route>
           </Switch>
         </Router>
       </div>

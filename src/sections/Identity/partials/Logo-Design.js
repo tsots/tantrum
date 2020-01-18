@@ -6,7 +6,7 @@ import LogoDesignSmall from '../img/logo-design-small.svg';
 class LogoDesign extends Component {
   render() {
     return (
-      <div className='Logo-Design'>
+      <section className='Logo-Design'>
         <h3>LOGO DESIGN</h3>
         <img src={LogoDesignLarge} alt='Logo Design Illustration' />
         <p>
@@ -18,7 +18,7 @@ class LogoDesign extends Component {
           idea, vision, and personality in the most effective manner within the
           shortest amount of time.
         </p>
-      </div>
+      </section>
     );
   }
 }

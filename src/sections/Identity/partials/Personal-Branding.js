@@ -6,7 +6,7 @@ import PBrandingSmall from '../img/personal-branding-small.svg';
 class PBranding extends Component {
   render() {
     return (
-      <div className='Messaging'>
+      <section className='Personal-Branding'>
         <h3>PERSONAL BRANDING</h3>
         <img src={PBrandingLarge} alt='' />
         <p>
@@ -17,7 +17,7 @@ class PBranding extends Component {
           We work to differentiate you from other people, portray an image that
           people should see of you while being memorable.
         </p>
-      </div>
+      </section>
     );
   }
 }

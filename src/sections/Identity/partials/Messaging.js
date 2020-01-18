@@ -6,7 +6,7 @@ import MessagingSmall from '../img/messaging-small.svg';
 class Messaging extends Component {
   render() {
     return (
-      <div className='Messaging'>
+      <section className='Messaging'>
         <h3>MESSAGING</h3>
         <img src={MessagingLarge} alt='' />
         <p>
@@ -18,7 +18,7 @@ class Messaging extends Component {
           appropriate for your target audience while articulating and
           accentuating your brand promise.
         </p>
-      </div>
+      </section>
     );
   }
 }

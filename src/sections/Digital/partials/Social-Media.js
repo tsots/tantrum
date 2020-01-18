@@ -6,9 +6,12 @@ import SMediaSmall from '../img/social-media-small.svg';
 class SMedia extends Component {
   render() {
     return (
-      <div className='Social-Media'>
+      <section className='Social-Media'>
         <h3>SOCIAL MEDIA INTEGRATION</h3>
-        <img src={SMediaLarge} alt='' />
+        <img
+          src={SMediaSmall}
+          srcSet={`${SMediaSmall} 500w, ${SMediaLarge} 768w`}
+        />
         <p>
           Integrating your web-app, mobile-app and social media channels
           empowers the business and helps the brand to connect with consumers
@@ -17,7 +20,7 @@ class SMedia extends Component {
           communicate important news and updates to your followers and fan base
           in real-time expanding the reach to the wider audience.
         </p>
-      </div>
+      </section>
     );
   }
 }
